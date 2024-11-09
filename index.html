@@ -4,36 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compartiable" content="IE-Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
     <meta name="descriptions" content="Сайт Резюме Егора Черкасского"> 
     <meta name="keywords" content="Resume, cv, Egor">
+
+ <link rel="stylesheet" href="02.forms.css">   
 </head>
 <body>
-    <h1><strong>Резюме: Егор Черкасский (19 лет) </strong></h1>
 
-<img src="Bewerbungsfoto.jpg" alt="Егор Черкасский" width="150">
+<div class="container">
 
- <p>Живу всю жизнь в Германии, знаю в совершенстве <strong>немецкий язык </strong>и закончил <em>немецкую Гимназию</em> с хорошим <strong>Абитуром.</strong></p>
- <p >Я увлекаюсь <em>настольным теннисом, играю в боулинг и с недавнего времени програмирую, а также подрабатываю как репетитор</em>. В данный момент поступаю в <strong>Универ</strong>.
+   <div  class="info">  
+ <h1><strong> Егор Черкасский (19 лет) </strong></h1>
+<img src="Bewerbungsfoto.jpg" alt="Егор Черкасский" class="avatar">
+<div class="info-text">
+ <p>Живу всю жизнь в Германии, знаю в совершенстве <strong>немецкий язык </strong>и закончил <em>немецкую Гимназию</em> с хорошим <strong>Абитуром.</strong>
+Я увлекаюсь <em>настольным теннисом, играю в боулинг и с недавнего времени програмирую, а также подрабатываю как репетитор</em>. В данный момент поступаю в <strong> немецкий Университет</strong>.
  </p>
-<hr>
+</div>
 <h2><strong>Список соцсетей:</strong></h2>
 <a href="https://www.instagram.com/egor_cherkasskiy/profilecard/?igsh=em92OWN6emE2d3B5" target="_blank">Instagram</a>  |
 <a href="https://t.me/Witcher049" target="_blank">Telegram<a>
-<hr>
+</div>
+<br>
+<div class="hobby">
 <h2><strong>Список Хобби:</strong></h2>
-
-<ol><li>Настольный теннис</li>
+<ol class="list">
+<li>Настольный теннис</li>
 <li>Боулинг </li>
 <li>Футбол: <strong>(Спартак Москва)</strong></li>
 <li>Горные Лыжи</li>
 <li>Путешествовать </li>
 <li>Програмировать</li>
-<li>Компьютерные игры</li></ol>
-<hr>
+<li>Компьютерные игры</li>
+</ol>
+
+</div>
+<div class="experience">
 <h2><strong>Образование и Опыт Работы:</strong></h2>
 
-<table>
+<table class="table">
  <thead>
   <tr>
 <th>Название</th>
@@ -54,11 +64,11 @@
       </tr>
       <tr>
         <th>Образовательный центр: Катерина</th>
-        <th>Актер/Организатор дет.праздников</th>
+        <th>Актёр дет.праздников</th>
         <th>2018-2019</th>
           </tr>
           <tr>
-            <th>Фишер/Партнеры</th>
+            <th>Практика: Фишер/Партнеры</th>
             <th>Налоговый служащий</th>
             <th>2022</th>
               </tr>
@@ -69,32 +79,33 @@
                   </tr>
   </tbody>
 </table>
-
-<hr>
-
+</div>
+<div class="contact">
 <h2><strong>Связаться со мной:</strong></h2>
 
 <form>
 
 <div>
 <label for="text">ФИО:</label>
-<input type="text" id="text" placeholder="Шастун Антон Андреевич">
+<input type="text" id="text" class="btn3" placeholder="Шастун Антон Андреевич">
 </div>
 
 <div>
 <label for="email">Email:</label>
-<input type="email" id="email" placeholder="Posov.Dmitriy@mail.ru" >
+<input type="email" id="email" class="btn2" placeholder="Posov.Dmitriy@mail.ru" >
 </div>
 
 <div>
+  
 <label for="message">Оставить Сообщение:</label>
 <br>
-<textarea id="message" cols="25" rows="5"  placeholder="Текст..."></textarea> 
+<textarea id="message" cols="25" rows="5" class="btn4" placeholder="Текст..."></textarea> 
 </div>
-
-<input type="submit" value="Отправить Форму">
+<input type="submit"  class="btn"value="Отправить Форму">
 
 </form>
-
+</div>
+</div>
+</div>
 </body>
 </html>
