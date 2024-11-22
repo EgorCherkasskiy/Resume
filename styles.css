@@ -59,24 +59,24 @@ a:visited {
 }
 
 .hobby {
-    border: 2px solid red;
-    border-radius: 5px;
-    background-color: rgb(216, 81, 81);
-    padding: 15px 20px;
-    margin-bottom: 20px;
+    /* border: 2px solid grey;*/
+     border-radius: 5px;
+     background-color: rgb(198, 194, 194);
+     padding: 15px 20px; 
+     margin-bottom: 20px;
 }
 
 .experience {
-    border: 2px solid rgb(0, 255, 8);
-    border-radius: 5px;
-    background-color: greenyellow; 
-    margin-bottom: 20px;
+    border: 2px solid rgb(123, 129, 123); 
+   border-radius: 5px;
+   background-color: rgb(198, 194, 194); 
+   margin-bottom: 20px;
 }
 
 .contact {
-    border: 2px solid yellow;
+    /* border: 2px solid rgb(184, 168, 168);*/
     border-radius: 5px;
-    background-color: rgb(219, 219, 57);
+    background-color: rgb(198, 194, 194);
     margin-bottom: 20px;
 }
 
@@ -170,8 +170,7 @@ text-decoration: underline;
 @media (max-width:650px) {
     .info {
         display: block;
-        text-align: center;
-        font-size: 1,5em;
+        text-align:center;
         padding: 10px;
     }
 }
